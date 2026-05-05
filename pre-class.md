@@ -1,23 +1,22 @@
-# Pre-Class — L02 Probability & Statistics for Machine Learning
+# Before Class — L02 Probability & Statistics for Machine Learning
 
 > *Sarah Chen · Customer Experience Analyst · NorthStar Retail · January 2023.*
 > It is Monday morning. On Friday, Priya asked the question Sarah couldn't answer: *"Your model says 60% of reviews are positive — but how do we know we can trust that number?"*
 
-**Estimated time: 75 minutes.**
-**Complete this before class.**
+**Estimated time: 75 minutes.** Complete this before class.
 
-This pre-class guide is **one complete Kolb learning cycle**: you will *experience* the statistical problem first (in a notebook), *reflect* on what made the number hard to defend, *read* the underlying ideas, and *apply* them in short exercises. You will leave this session understanding why "60% positive" is a start — not an answer.
+This guide walks you through four short steps. You will *try* the statistical problem first (in a notebook), *reflect* on what made the number hard to defend, *learn* the underlying ideas, and *practise* applying them in short exercises. You will come to class understanding why "60% positive" is a start — not an answer.
 
-| Stage | Time | What you do |
+| Step | Time | What you do |
 |---|---|---|
-| **Concrete Experience** | 15 min | Open and run `notebooks/01_monday_morning.ipynb` |
-| **Reflective Observation** | 10 min | Reflection prompts below |
-| **Abstract Conceptualization** | 30 min | Watch videos + preview `lesson.md` |
-| **Active Experimentation** | 20 min | 3 mini-exercises with sample answers |
+| **1. Try it** | 15 min | Open and run `notebooks/01_monday_morning.ipynb` |
+| **2. Reflect** | 10 min | Reflection prompts below |
+| **3. Learn** | 30 min | Watch videos + preview `lesson.md` |
+| **4. Practise** | 20 min | 3 mini-exercises with sample answers |
 
 ---
 
-## Stage 1 — Concrete Experience (15 min)
+## Step 1 — Try it (15 min)
 
 **What to do:** Open **`notebooks/01_monday_morning.ipynb`** in your Python environment. Run every cell top to bottom. Read the markdown between cells. Do not skip any cell.
 
@@ -38,7 +37,7 @@ Do this first, before reading anything below.
 
 ---
 
-## Stage 2 — Reflective Observation (10 min)
+## Step 2 — Reflect (10 min)
 
 Now that you've seen the data, slow down. Answer these prompts in a notebook, a journal, or just in your head.
 
@@ -65,7 +64,7 @@ If Sarah had to stand in front of Marcus in the board room and defend "60% posit
 
 ---
 
-## Stage 3 — Abstract Conceptualization (30 min)
+## Step 3 — Learn (30 min)
 
 Now read about what's actually going on.
 
@@ -108,7 +107,7 @@ Open each Part notebook and read just the first markdown cell — the business s
 
 ---
 
-## Stage 4 — Active Experimentation (20 min)
+## Step 4 — Practise (20 min)
 
 Three short exercises. Attempt each one *before* looking at the sample answer. The act of trying before looking is what makes the learning stick.
 
@@ -197,7 +196,7 @@ Answer these questions:
 
 Come ready with:
 
-1. **Your answer to Stage 2, Q4** — what you would need to know to properly answer Priya's "different week" question. Be ready to compare with classmates.
+1. **Your answer to Step 2, Q4** — what you would need to know to properly answer Priya's "different week" question. Be ready to compare with classmates.
 2. **Your answer to Exercise 3, Question 3** — should NorthStar roll out the badge? Be prepared to argue for or against.
 3. **One real-world number from your own work or life** where you've been given a percentage or average without any indication of how reliable it is. Be ready to say what a confidence interval would have added.
 4. **One concept that didn't fully click.** The session will address it.
@@ -214,4 +213,4 @@ Did the full 75 minutes but haven't finished everything? Prioritise in this orde
 2. Attempt Exercise 1 (mean, median, shape) and Exercise 3, Question 1 only.
 3. Skip the videos if you must — the instructor will cover the key ideas.
 
-You can come back to the rest after class. The same Kolb cycle repeats again in class (the Part notebooks) and once more after class (the assignment), so no single miss is fatal.
+You can come back to the rest after class. The same try → reflect → learn → practise rhythm repeats in class (the Part notebooks) and once more after class (the assignment), so no single miss is fatal.
