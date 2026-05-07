@@ -57,9 +57,16 @@ You will:
 
 ---
 
-### Phase 2 — In class: concept review + hands-on notebooks (~3 hrs)
+### Phase 2 — In class: lecture + hands-on notebooks (~3 hrs)
 
 **Goal:** Deepen the concepts with the instructor and build real skill.
+
+The 3-hour class splits into two phases:
+
+| Phase | Time | Format |
+|---|---|---|
+| **Slide-driven lecture** | ~90 min | Instructor presents core concepts using `slides/L02_slides.pptx` |
+| **Hands-on code-alongs** | ~90 min | Three notebooks (~30 min each) — Core sections only |
 
 **Concept reference →** [**lesson.md**](./lesson.md)
 
@@ -71,7 +78,9 @@ You will:
 | 03 | [`03_confidence_intervals.ipynb`](./notebooks/03_confidence_intervals.ipynb) | Wednesday | Sampling · the CLT · confidence intervals |
 | 04 | [`04_ab_testing.ipynb`](./notebooks/04_ab_testing.ipynb) | Thursday | A/B testing · p-values · the three mis-readings |
 
-Each notebook opens with a business scenario, guides you through the code with **Pause & Predict** prompts, and ends with a summary table and reflection. Read every markdown cell, not just the code.
+Each notebook opens with a business scenario, guides you through the code with **Pause & Predict** prompts, and ends with a summary table.
+
+> **🟡 Each notebook has an Extension section** marked with a horizontal rule near the bottom. The Core cells above the line are what gets covered in class. The Extension cells below — extra plots, bonus comparisons, deeper reflections — are for self-study after class. Skipping them won't affect later lessons.
 
 ---
 
@@ -115,11 +124,14 @@ pre-class.md                        ← Phase 1: 75-min self-study guide
 lesson.md                           ← Phase 2: Concept reference for all key topics
 reference.md                        ← Phase 3: Further reading + glossary (~25 terms)
 environment.yml                     ← Conda environment spec (scipy + statsmodels included)
+slides/
+  L02_slides.pptx                   ← Instructor lecture deck (~32 slides, ~90 min)
+  slides_outline.md                 ← Quick reference for the slide structure
 notebooks/
   01_monday_morning.ipynb           ← Pre-class hook: Sarah's Monday (~15 min, before class)
-  02_distributions.ipynb            ← Part 1: Distributions (Tuesday, in class)
-  03_confidence_intervals.ipynb     ← Part 2: Confidence Intervals (Wednesday, in class)
-  04_ab_testing.ipynb               ← Part 3: A/B Testing (Thursday, in class)
+  02_distributions.ipynb            ← Part 1: Distributions (Tuesday · ~30 min Core + 🟡 Extension)
+  03_confidence_intervals.ipynb     ← Part 2: Confidence Intervals (Wednesday · ~30 min Core + 🟡 Extension)
+  04_ab_testing.ipynb               ← Part 3: A/B Testing (Thursday · ~20 min Core + 🟡 Extension)
   assignment.ipynb                  ← After class: Lakeside Bank + hospital exercises
   optional_extensions.ipynb         ← 🟡 Optional: Bayes · t-test derivation · bootstrapping · CLT
 ```
